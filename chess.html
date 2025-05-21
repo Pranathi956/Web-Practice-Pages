@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chess</title>
+    <style>
+        body {
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20240415/pngtree-gold-king-chess-piece-on-wood-chessboard-image_15655250.jpg') no-repeat ;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Georgia', serif;
+            color: white;
+        }
+        h1 {
+			margin-top:0.5px;
+            font-size: 35px;
+            text-transform: uppercase;
+            padding: 5px;
+            border-bottom: 5px solid gold;
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 30px;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            0% { text-shadow: 0px 0px 15px gold, 0px 0px 20px gold; }
+            100% { text-shadow: 0px 0px 15px white, 0px 0px 20px white; }
+        }
+        .quote-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 3px solid white;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            margin-top: 10px;
+            animation: fadeIn 2s infinite alternate;
+        }
+
+        .quote {
+            font-size: 25px;
+            font-style: italic;
+            border-left: 5px solid gold;
+			border-right: 5px solid gold;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .facts {
+            padding: 5px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 2.5px solid gold;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        .facts:hover {
+            background: rgba(255, 215, 0,0.3);
+        }
+        #i{
+			width:60px;
+			height:70px;
+			margin-right:20px;
+            margin-top: 20px;
+            font-size: 18px;
+            border: 2px solid gold;
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            border-radius: 10px;
+        }
+		.link{
+			text-decoration:none;
+			color:white;
+			position:absolute;
+			top:10px;
+			right:15px;
+			background: rgba(0, 0, 0, 0.6);
+            border: 3px solid gold;
+            display: inline-block;
+            border-radius: 10px;
+			width:100px;
+			height:65px;
+			
+		}
+    </style>
+</head>
+<body>
+
+    <h1>WELCOME <br/> Chess: A Battle of Minds</h1>
+	
+    <center><div class="facts">
+        <p>Control the center with your pawns</p>
+        <p>Develop knights and bishops early</p>
+        <p>Castle to protect your king</p>
+        <p>Always check if your piece is safe before moving</p>
+		<p id="i">Think. Move. Win.</p></center>
+    </div>
+	
+	<a class="link" href="https://aicf.in/" target="blank">Click here for more information</a>
+	
+	<div class="quote-box">
+        <p class="quote">"Every chess master was once a beginner." – Irving Chernev</p>
+    </div>
+
+</body>
+</html>
