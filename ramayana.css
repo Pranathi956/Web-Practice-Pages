@@ -1,0 +1,106 @@
+body{
+			background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMKCYdHFWf6U7rZVmdyOvNBgKAYMtwhZyJw&s');
+			background-repeat:no-repeat;
+			background-size:cover;
+			}
+header {
+	font-size:25px;
+	font-style:italic;
+	color:gold;
+    text-align: center;
+	margin:0px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    animation: slideIn 2s ease-in-out;
+}
+.navbar {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+        }
+.navbar a {
+			font-size:20px;
+            color: gold;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+a{
+	text-decoration:none;
+}
+#subhead{
+	font-size:25px;
+	padding-left:22px;
+	color:gold;
+}
+#head,h2{
+	margin:0px;
+	padding-top:15px;
+	padding-bottom:10px;
+	color:gold;
+	font-weight:normal;
+}
+.intro,.end{
+	margin:10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+	color:gold;
+	font-size:20px;
+}
+.mantra{
+					
+					font-size:25px;
+					padding:25px;
+					color:gold;
+					border-top: 2px solid gold;
+					border-bottom: 2px solid gold;
+					background: rgba(0, 0, 0, 0.3);
+				}
+.khandas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.khanda-card{
+	color:skyblue;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.khanda-card:hover {
+	background-color:black;
+    transform: scale(1.25);
+}
+.intro:hover,.navbar:hover,footer:hover{
+	background-color:black;
+    transform: scale(1.02);
+}
+.vid{
+		color:gold;
+		padding:10px;
+	}
+.intro,.end{
+			color:gold;
+			padding:10px;
+	     }
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    color: gold;
+}
